@@ -1,4 +1,3 @@
-
 import styled from "styled-components";
 import ImgServiceApply from "./ImgServiceApply"
 import { ServiceApplyData } from "../../data/data";
@@ -55,7 +54,6 @@ justify-content: center;
 flex-direction: ${(props)=> props.windowWidth >770? "row":"column"}
 `;
 
-
 const ItemBox = styled.div`
 padding: 0 3rem;
 div{
@@ -84,4 +82,3 @@ div{
   padding: 0 0 0 0;
 }
 `;
-
