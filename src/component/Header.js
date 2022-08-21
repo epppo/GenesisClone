@@ -1,41 +1,86 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 import { Login, Logo, ServicCenter, SearchIcon } from "../assets/svg"
 
 
-const Header = () =>{
+const Header = () => {
+  const [windowWidth, setWindowWidth] = useState();
+  const handleResize = () => {
+    setWindowWidth(window.innerWidth);
+  }
+  useEffect(() => {
+    window.addEventListener('resize', handleResize);
+    return () => {
+      window.removeEventListener('resize', handleResize)
+    }
+  }, []);
+
+
   return (
     <HeaderWrap>
-      <MainSiteNaveBar>
-        <MainInnerSiteNaviBar>
-          
-          <LogoWrap>
-            <Logo height="100%"/>
-          </LogoWrap>
+      <MainSiteNaveBar windowWidth={windowWidth}>
+        <LogoWrap>
+          <Logo height="100%" />
+        </LogoWrap>
 
-          <ul>
-            <li>모델</li>
-            <li>구매</li>
-            <li>체험</li>
-            <li>멤버스</li>
-            <li>제네시스</li>
-          </ul>
+        <MenuWrap>
+          {windowWidth < 1050 ? "" :
+            <ul>
+              <li><Link to="/">모델</Link></li>
+              <li><Link to="/">구매</Link></li>
+              <li><Link to="/">체험</Link></li>
+              <li><Link to="/">멤버스</Link></li>
+              <li><Link to="/">제네시스</Link></li>
+            </ul>
+          }
+
+        </MenuWrap>
 
 
-          <MainNaviButtonArea>
+        <MainNaviButtonArea >
 
-            <div className="HederButtons"><img src={ServicCenter}/></div>
-            <div className="HederButtons"><img src={Login}/></div>
-            <div className="HederButtons"><img src={SearchIcon}/></div>
+          { windowWidth > 1400? 
+            <>
+              <div className="HederButtons">
+                <Link to="/">고객센터</Link>
+              </div>
+              <div className="HederButtons">
+                <Link to="/">마이페이지</Link>
+              </div>
+              <div className="HederButtons">
+                <Link to="/"><img src={SearchIcon} /></Link>
+              </div>
+            </>
+          : windowWidth > 1050 ?
+            <>
+              <div className="HederButtons">
+                <Link to="/"><img src={ServicCenter} /></Link>
+              </div>
+              <div className="HederButtons">
+                <Link to="/"><img src={Login} /></Link>
+              </div>
+              <div className="HederButtons">
+                <Link to="/"><img src={SearchIcon} /></Link>
+              </div>
+            </>
+          : 
+            <div className="HederButtons">
+              <Link to="/"><img src={Login} /></Link>
+            </div>
+          }
 
-            <NaviBtn>
-              <span style={{background:"white"}}></span>
-              <span></span>
-              <span style={{background:"white"}}></span>
-            </NaviBtn>
 
-          </MainNaviButtonArea>
-        </MainInnerSiteNaviBar>
+          <NaviBtn>
+            <Link to="/">
+            <span style={{ background: "white" }}></span>
+            <span></span>
+            <span style={{ background: "white" }}></span>
+            </Link>
+          </NaviBtn>
+
+        </MainNaviButtonArea>
+
 
       </MainSiteNaveBar>
 
@@ -57,17 +102,16 @@ height: 5.9rem;
 `;
 
 const MainSiteNaveBar = styled.div`
+max-width: 100%;
+height: ${(props) => props.windowWidth > 1050 ? 70 : 60}px;
 display: flex;
-justify-content: center;
-max-width: 1023px;
-width: 100%;
+margin:  ${(props) => props.windowWidth > 1050 ? "0 5rem 0 5rem" : "0 1rem 0 1rem"}; 
 `;
 
-const MainInnerSiteNaviBar = styled.div`
+const MenuWrap = styled.div`
+width: 70%;
 display: flex;
-height: 59px;
-justify-content: space-between;
-padding: 0 2rem;
+margin: 0 auto;
 
 ul{
   display: flex;
@@ -79,21 +123,39 @@ li{
   color: #BBBBBB;
   font-weight: 500;
   font-size: 0.9rem;
-}
+  transition: color 0.2s ease-in;
+
+  &:hover{
+  color: white;
+  }
+} 
 
 `;
 
 const LogoWrap = styled.div`
-padding: 0 2rem 0 0;
+max-width: 100%;
 
 `;
 
 const MainNaviButtonArea = styled.div`
+max-width: 100%;
 display: flex;
 align-items: center;
+justify-content: flex-end;
+
 .HederButtons{
-  padding: 0 1rem 0 0;
+  padding: 0 1.5rem 0 0;
+  a{
+    color: #BBBBBB;
+    font-size: 0.9rem;
+    transition: color 0.2s ease-in;
+
+    &:hover{
+     color: white;
+    }
+  }  
 }
+
 img{
   width:17px;
   height: 19px;
