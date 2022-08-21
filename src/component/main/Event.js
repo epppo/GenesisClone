@@ -1,4 +1,4 @@
-import styled, { StyleSheetManager } from "styled-components";
+import styled from "styled-components";
 
 const Event = (props) =>{
   return (
