@@ -3,7 +3,8 @@ import {
   RelationContents,
   Event,
   AddInfo,
-  ServiceApply
+  ServiceApply,
+  OurModels
 }from "../component/main"
 
 function Main(){
@@ -22,34 +23,19 @@ function Main(){
 
   return (
   <>
-    <div>메인 슬라이더</div> 
+  <div>메인 슬라이더</div> 
     {/* 이거 너무 지친다.. 나중에 하자  */}
   
-  <div>
-    <div>제품소개</div>
-    <div>드롭박스</div>
-    <div>슬라이더..ㅋㅋㅋ</div>
-  </div>
-
-  <div>
-    <ServiceApply windowWidth={windowWidth}/>
-  </div>
+  <OurModels windowWidth={windowWidth}/>
+  <ServiceApply windowWidth={windowWidth}/>
 
   <div>
     ㅋㅋㅋㅋㅋㅋ어워즠ㅋㅋㅋㅋㅋ 이미지 바뀌는거
   </div>
 
-  <div>
-    <AddInfo windowWidth={windowWidth}/>
-  </div>
-
-  <div>
-    <Event windowWidth={windowWidth}/>
-  </div>
-
-  <div>
-    <RelationContents windowWidth={windowWidth}/>
-  </div>
+  <AddInfo windowWidth={windowWidth}/>
+  <Event windowWidth={windowWidth}/>
+  <RelationContents windowWidth={windowWidth}/>
 
   <div>
     풋터

@@ -38,7 +38,7 @@ export default RelationContents;
 const Wrap = styled.div`
 width: 100%;
 background-color: white;
-max-height: ${(props)=> props.windowWidth >700? "800":"2000"}px;
+max-height: ${(props)=> props.windowWidth >770? "800":"2000"}px;
 min-height: 640px;
 height: 100%;
 padding: 7% 0;
