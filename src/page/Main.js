@@ -1,11 +1,12 @@
 import React, {useEffect, useState} from "react";
 import {
-  RelationContents
+  RelationContents,
+  Event
 }from "../component/main"
 
 function Main(){
 
-  const [windowWidth, setWindowWidth] = useState();
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
   const handleResize = () => {
     setWindowWidth(window.innerWidth);
   }
@@ -42,8 +43,7 @@ function Main(){
   </div>
 
   <div>
-    이미지 (로드시 확대 애니메이션)
-    이벤트 링크 
+    <Event windowWidth={windowWidth}/>
   </div>
 
   <div>
