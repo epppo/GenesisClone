@@ -1,7 +1,6 @@
 import React from "react";
 import reset from "./public/reset.css"
 import  styled, {createGlobalStyle} from "styled-components";
-import Router from "./public/Router";
 import Header from "./component/Header";
 
 
@@ -10,7 +9,6 @@ function App() {
     <Wrap>
       <Header/>
       <GlobalStyle/>
-      <Router/>
     </Wrap>
 
   )
@@ -24,6 +22,6 @@ ${reset};
 
 const Wrap = styled.div`
 max-width: 1919px;
-min-width: 420px;
+min-width: 450px;
 width: 100%;
 `;
