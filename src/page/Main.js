@@ -1,7 +1,8 @@
 import React, {useEffect, useState} from "react";
 import {
   RelationContents,
-  Event
+  Event,
+  AddInfo
 }from "../component/main"
 
 function Main(){
@@ -39,7 +40,7 @@ function Main(){
   </div>
 
   <div>
-    소개 이미지 두개
+    <AddInfo windowWidth={windowWidth}/>
   </div>
 
   <div>
