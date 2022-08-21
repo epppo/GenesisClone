@@ -62,7 +62,7 @@ background-color: white;
 max-height: ${(props)=> props.windowWidth >700? "800":"2000"}px;
 min-height: 640px;
 height: 100%;
-padding: 10% 0;
+padding: 7% 0;
 display: flex;
 flex-direction: column;
 
@@ -91,7 +91,7 @@ width: 100%;
 
 `;
 const ContentWrap = styled.div`
-margin: 10% 0;
+margin: 3% 0;
 width: ${(props)=> props.windowWidth >700? "30":"100"}%;
 padding: 0 2%;
 color: black;
