@@ -47,3 +47,78 @@ export const RelationContentsData = [
     contents:"제네시스 오너분들께만 주어지는 특별한 혜택과 이상적인 경험을 선사합니다.",
   }
 ]
+
+export const ModelList = [
+  {
+    key:"MODEL1",
+    type:"SEDAN",
+    type2:"BASIC",
+    name:"G70",
+    semiName:"SHOOTING BRAKE",
+    img:"https://www.genesis.com/content/dam/genesis-p2/kr/admin/model-information/G70/list-thumbnail/2022-07-21/13-43-23/ik-sb-22lc-gnb-thumnnail-list.png"
+  },
+  {
+    key:"MODEL2",
+    type:"SEDAN",
+    type2:"BASIC",
+    name:"G70",
+    semiName:"",
+    img:"https://www.genesis.com/content/dam/genesis-p2/kr/admin/model-information/G70/list-thumbnail/2021-12-09/20-34-57/genesis-kr-admin-model-list-thumbnail-g70-desktop-630x240-ko.png"
+  },
+  {
+    key:"MODEL3",
+    type:"SEDAN",
+    type2:"ELECTRIFIED",
+    name:"G80",
+    semiName:"",
+    img:"https://www.genesis.com/content/dam/genesis-p2/kr/admin/model-information/G70/list-thumbnail/2021-12-09/20-34-57/genesis-kr-admin-model-list-thumbnail-g70-desktop-630x240-ko.png"
+  },
+  {
+    key:"MODEL4",
+    type:"SEDAN",
+    type2:"BASIC",
+    name:"G80",
+    semiName:"",
+    img:"https://www.genesis.com/content/dam/genesis-p2/kr/admin/model-information/G80/list-thumbnail/2021-12-09/20-35-20/genesis-kr-admin-model-list-thumbnail-g80-desktop-630x240-ko.png"
+  },
+  {
+    key:"MODEL5",
+    type:"SEDAN",
+    type2:"BASIC",
+    name:"G90",
+    semiName:"",
+    img:"https://www.genesis.com/content/dam/genesis-p2/kr/admin/model-information/G90/list-thumbnail/2021-11-23/10-08-57/genesis-kr-admin-model-list-thumbnail-g90-desktop-630x240-ko.png"
+  },
+  {
+    key:"MODEL6",
+    type:"SUV",
+    type2:"BASIC",
+    name:"G90",
+    semiName:"",
+    img:"https://www.genesis.com/content/dam/genesis-p2/kr/admin/model-information/G90/list-thumbnail/2021-11-23/10-08-57/genesis-kr-admin-model-list-thumbnail-g90-desktop-630x240-ko.png"
+  },
+  {
+    key:"MODEL7",
+    type:"SUV",
+    type2:"ELECTRIFIED",
+    name:"G70",
+    semiName:"",
+    img:"https://www.genesis.com/content/dam/genesis-p2/kr/admin/model-information/GV70/list-thumbnail/2022-02-23/18-36-16/genesis-kr-admin-model-list-thumbnail-electrified-gv70-desktop-630x240-ko.png"
+  },
+  {
+    key:"MODEL8",
+    type:"SUV",
+    type2:"BASIC",
+    name:"G70",
+    semiName:"",
+    img:"https://www.genesis.com/content/dam/genesis-p2/kr/admin/model-information/GV70/list-thumbnail/2022-04-07/14-07-15/JK_GNB_Thumbnail.png"
+  },
+  {
+    key:"MODEL9",
+    type:"SUV",
+    type2:"BASIC",
+    name:"G80",
+    semiName:"",
+    img:"https://www.genesis.com/content/dam/genesis-p2/kr/admin/model-information/GV70/list-thumbnail/2022-04-07/14-07-15/JK_GNB_Thumbnail.png"
+  },
+]
