@@ -85,10 +85,10 @@ const Header = () => {
       </MainSiteNaveBar>
 
 
-      <SubSiteNaveBar>
+      {/* <SubSiteNaveBar>
         <div> Sub Header</div>
 
-      </SubSiteNaveBar>
+      </SubSiteNaveBar> */}
 
     </HeaderWrap>
   )
@@ -98,7 +98,8 @@ export default Header;
 
 const HeaderWrap = styled.div`
 width: 100%;
-height: 5.9rem;
+border : 0.5px solid gray;
+
 `;
 
 const MainSiteNaveBar = styled.div`
