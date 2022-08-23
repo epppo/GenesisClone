@@ -122,3 +122,63 @@ export const ModelList = [
     img:"https://www.genesis.com/content/dam/genesis-p2/kr/admin/model-information/GV70/list-thumbnail/2022-04-07/14-07-15/JK_GNB_Thumbnail.png"
   },
 ]
+
+export const MainSliderData = [
+  {
+    key:"MSD1",
+    type:"ELECTRIFIED",
+    modelName:"G80",
+    comment:"전기차 그 이상의 시작",
+    img:"https://www.genesis.com/content/dam/genesis-p2/kr/assets/main/hero/genesis-main-keyvisual-electrified-g80-main-hero-desktop-2560x900-kr.jpg",
+    mobileImg:"https://www.genesis.com/content/dam/genesis-p2/kr/assets/main/hero/genesis-main-keyvisual-electrified-g80-main-hero-mo-750x1400-kr.jpg"
+  },
+  {
+    key:"MSD2",
+    type:"GENESIS",
+    modelName:"GV60",
+    comment:"당신과의 교감을 위해",
+    img:"https://www.genesis.com/content/dam/genesis-p2/kr/assets/main/hero/genesis-main-keyvisual-gv60-main-hero-01-desktop-2560x900-kr.jpg",
+    mobileImg:"https://www.genesis.com/content/dam/genesis-p2/kr/assets/main/hero/genesis-main-keyvisual-gv60-main-hero-01-mo-750x1400-kr.jpg"
+  },
+  {
+    key:"MSD3",
+    type:"GENESIS",
+    modelName:"GV7 SHOOTING BRAKE",
+    comment:"온전히 나답게",
+    img:"https://www.genesis.com/content/dam/genesis-p2/kr/assets/main/hero/genesis-main-keyvisual-g70-sb-main-hero-desktop-2560x900-2.jpg",
+    mobileImg:"https://www.genesis.com/content/dam/genesis-p2/kr/assets/main/hero/genesis-main-keyvisual-g70-sb-main-hero-mo-750x1400.jpg"
+  },
+  {
+    key:"MSD4",
+    type:"미래를 향한 대담한 비전",
+    modelName:"FUTURING GENESIS",
+    comment:"",
+    img:"https://www.genesis.com/content/dam/genesis-p2/kr/assets/main/hero/genesis-main-keyvisual-futuring-genesis-pc-2560x900-kr.jpg",
+    mobileImg:"https://www.genesis.com/content/dam/genesis-p2/kr/assets/main/hero/genesis-main-keyvisual-futuring-genesis-mo-750x1400-kr-1.jpg"
+  },
+  {
+    key:"MSD5",
+    type:"GENESIS",
+    modelName:"G90",
+    comment:"한국자동차기자협회 2022 올해의 차 수상",
+    img:"https://www.genesis.com/content/dam/genesis-p2/kr/assets/main/hero/genesis-main-keyvisual-g90-main-hero-01-desktop-2560x900-ko.jpg",
+    mobileImg:"https://www.genesis.com/content/dam/genesis-p2/kr/assets/main/hero/genesis-main-keyvisual-g90-main-hero-mo-01-750x1400-ko.jpg"
+  },
+  {
+    key:"MSD6",
+    type:"ELECTRIFIED",
+    modelName:"G70",
+    comment:"또다른 감동을 충전하는 시간",
+    img:"https://www.genesis.com/content/dam/genesis-p2/kr/assets/main/hero/genesis-main-keyvisual-electrified-gv70-main-hero-01-desktop-2560x900.jpg",
+    mobileImg:"https://www.genesis.com/content/dam/genesis-p2/kr/assets/main/hero/genesis-main-keyvisual-electrified-gv70-main-hero-01-mo-750x1400.jpg"
+  },
+  {
+    key:"MSD7",
+    type:"GENESIS",
+    modelName:"G70",
+    comment:"2022년형 출시",
+    img:"https://www.genesis.com/content/dam/genesis-p2/kr/assets/main/hero/genesis-main-keyvisual-gv70-22my-main-hero-desktop-2560x900-1.jpg",
+    mobileImg:"https://www.genesis.com/content/dam/genesis-p2/kr/assets/main/hero/genesis-main-keyvisual-gv70-22my-main-hero-mo-750x1400-1.jpg"
+  }
+]
+

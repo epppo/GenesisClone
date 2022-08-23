@@ -1,7 +1,9 @@
 
+
+
 function HighLights(){
   return(
-    <div>하이라이트</div>
+<div></div>
   )
 }
 export default HighLights;
