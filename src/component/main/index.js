@@ -3,5 +3,6 @@ import Event from "./Event"
 import AddInfo from "./AddInfo"
 import ServiceApply from "./ServiceApply"
 import OurModels from "./OurModels"
+import MainSlider from "./MainSlider"
 
-export {RelationContents, Event, AddInfo, ServiceApply, OurModels}
+export {RelationContents, Event, AddInfo, ServiceApply, OurModels, MainSlider}

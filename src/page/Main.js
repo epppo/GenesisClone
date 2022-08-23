@@ -1,10 +1,12 @@
 import React, {useEffect, useState} from "react";
+import styled from "styled-components";
 import {
   RelationContents,
   Event,
   AddInfo,
   ServiceApply,
-  OurModels
+  OurModels, 
+  MainSlider
 }from "../component/main"
 
 function Main(){
@@ -22,16 +24,14 @@ function Main(){
 
 
   return (
-  <>
-  <div>메인 슬라이더</div> 
-    {/* 이거 너무 지친다.. 나중에 하자  */}
-  
+ <>
+  <MainSlider windowWidth={windowWidth}/>
   <OurModels windowWidth={windowWidth}/>
   <ServiceApply windowWidth={windowWidth}/>
 
-  <div>
-    ㅋㅋㅋㅋㅋㅋ어워즠ㅋㅋㅋㅋㅋ 이미지 바뀌는거
-  </div>
+  <AwardsBox>
+    <span>THE AWARDS</span>
+  </AwardsBox>
 
   <AddInfo windowWidth={windowWidth}/>
   <Event windowWidth={windowWidth}/>
@@ -41,12 +41,18 @@ function Main(){
     풋터
     ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ
   </div>
-  엄마보고싶다..
-  </>
-
-  
-
+  엄마보고싶다.. 
+</>
   )
 
 }
 export default Main;
+
+const AwardsBox = styled.div`
+padding: 0 8%;
+
+  span{
+    padding: 0 0 0 15%;
+    font-size: 1.75rem;
+  }
+`;
