@@ -182,3 +182,38 @@ export const MainSliderData = [
   }
 ]
 
+
+export const AwardsData = [
+  {
+    title:"제네시스, '2022 레드 닷 어워드에서 4개 부문 수상",
+    bottonTitle:"2022 Red Dot Awards",
+    contents:"제네시스가 독일 노르트하인 베스트팔린 디자인센터가 주관하는 ‘2022 레드 닷 어워드 : 브랜드 & 커뮤니케이션 디자인’에서 최우수상 1개, 본상 3개, 총 4개 디자인상을 수상하였습니다. 제네시스의 전용 전시관 ‘제네시스 수지’가 리테일 디자인 부문에서 ‘레드 닷 어워드 : 최우수상’을 수상했으며, ‘제네시스 스튜디오 안성’과 ‘제네시스 하우스 뉴욕’은 본상 수상, ‘제네시스 GV60 인스토어 캠페인 : Light & Wonder’은 ‘공간 커뮤니케이션’ 부문에서 본상을 수상하였습니다.",
+    img : "https://www.genesis.com/content/dam/genesis-p2/kr/assets/main/awards/genesis-kr-main-reddot-award-22-4-desktop-1920x960.jpg",
+    mobileImg :"https://www.genesis.com/content/dam/genesis-p2/kr/assets/main/awards/genesis-kr-main-reddot-award-22-4-mobile-750x376.jpg",
+    
+  },
+  {
+    title:"J.D. POWER 2022 신차품질조사 프리미엄 브랜드 1위 달성",
+    bottonTitle:"J.D. POWER 2022 U.S. INITIAL QUALITY STUDY",
+    contents:"2017년 처음으로 평가 대상으로 선정된 이후 6년 동안 꾸준히 프리미엄 브랜드 최상위권을 유지한 제네시스가 ‘2022년 신차품질조사’에서 1위를 달성했습니다. 동시에 G80가 최우수 품질상을 2년 연속 수상, G70와 GV70가 품질 우수 차종에 선정되었습니다. 제네시스는 앞으로도 최고의 차량을 위해 높은 품질 기술을 선보이겠습니다.",
+    img : "https://www.genesis.com/content/dam/genesis-p2/kr/assets/main/awards/genesis-kr-main-jdpower-award-22-desktop-1920x960.jpg",
+    mobileImg :"https://www.genesis.com/content/dam/genesis-p2/kr/assets/main/awards/genesis-kr-main-jdpower-award-22-mobile-750x376.jpg",
+        
+  },
+  {
+    title:"2022 IIHS Top Safety Pick+",
+    bottonTitle:"2022 IIHS TOP SAFETY PICK+ ",
+    contents:"미국에서 판매하는 제네시스의 모든 차종이 안정성으로 최고 등급을 받았습니다. 미국 고속도로 안전보험협회(IIHS)가 발표한 충돌 평가에서 제네시스 G70, G80, G90, GV70, GV80가 ‘TSP+ 등급’을 획득했습니다. 특히 더 뉴 G70(2021년 6월 생산 이후)와 GV70는 4년 연속 ‘TSP+ 등급’에 오르며 안전성을 다시 한번 입증했습니다. ",
+    img : "https://www.genesis.com/content/dam/genesis-p2/kr/assets/main/awards/genesis-kr-main-iihs-award-22-desktop-1920x960.jpg",
+    mobileImg :"https://www.genesis.com/content/dam/genesis-p2/kr/assets/main/awards/genesis-kr-main-iihs-award-22-mobile-750x376.jpg"    ,
+        
+  },
+  {
+    title:"제네시스 GV70, 모터트렌드 올해의 SUV® 선정 (미국 사양 기준)",
+    bottonTitle:"2022 MOTORTREND SUV OF THE YEAR®",
+    contents:"제네시스 GV70가 미국 최고 권위의 자동차 전문지 모터트렌드에서 디자인, 엔지니어링, 효율성, 안전 등 모든 부문에서 우수한 평가를 받으며 2022 모터트렌드 올해의 SUV®(미국 사양 기준)로 최종 선정되었습니다.2019 모터트렌드 올해의 차®로 G70의 선정에 이은 쾌거로 럭셔리 브랜드의 위상을 높였습니다.",
+    img : "https://www.genesis.com/content/dam/genesis-p2/kr/assets/main/genesis-kr-main-motortrend-award-22-desktop-1920x960.jpg",
+    mobileImg :"https://www.genesis.com/content/dam/genesis-p2/kr/assets/main/genesis-kr-main-motortrend-award-22-mobile-750x376.jpg",
+       
+  }
+]
