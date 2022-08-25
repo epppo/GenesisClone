@@ -1,12 +1,10 @@
-import React, {useEffect, useState} from "react";
+import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import styled from "styled-components";
 import {MainSliderData} from "../../data/data"
 import {RightArrowW} from "../../assets/svg"
-
-
 
 
 const MainSlider =(props)=> {
@@ -41,7 +39,7 @@ const MainSlider =(props)=> {
                 <p>{data.modelName}</p>
                 <span>{data.comment}</span>
                 <div className="bottonText">
-                  <span>더 알아보기 <div><RightArrowW/></div></span>
+                  <span>더 알아보기 <RightArrowW/></span>
                   <span>견적내기<RightArrowW/></span>
                 </div>
                
@@ -101,15 +99,15 @@ color: white;
 
 p{
   font-size: 3.75rem;
-  padding: 0.01% 0;
+  padding: 0.02% 0;
   
-}
+}d
 span{
   font-size: 1.25rem;
 }
 
 .bottonText{
-  margin-top: 3%;
+  margin-top: 2.5%;
   display: flex;
   align-items: center;
   span{

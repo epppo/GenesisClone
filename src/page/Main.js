@@ -6,8 +6,10 @@ import {
   AddInfo,
   ServiceApply,
   OurModels, 
-  MainSlider
+  MainSlider,
+  Awards
 }from "../component/main"
+import Footer from "../component/Footer"
 
 function Main(){
 
@@ -30,18 +32,15 @@ function Main(){
   <ServiceApply windowWidth={windowWidth}/>
 
   <AwardsBox>
-    <span>THE AWARDS</span>
+    <TitleAward>THE AWARDS</TitleAward>
+    <Awards windowWidth = {windowWidth}/>
+    
   </AwardsBox>
 
   <AddInfo windowWidth={windowWidth}/>
   <Event windowWidth={windowWidth}/>
   <RelationContents windowWidth={windowWidth}/>
-
-  <div>
-    풋터
-    ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ
-  </div>
-  엄마보고싶다.. 
+  <Footer></Footer>
 </>
   )
 
@@ -49,10 +48,9 @@ function Main(){
 export default Main;
 
 const AwardsBox = styled.div`
-padding: 0 8%;
 
-  span{
-    padding: 0 0 0 15%;
-    font-size: 1.75rem;
-  }
 `;
+const TitleAward = styled.span`
+    margin-bottom: 100px;
+padding: 0 0 0 20%;
+font-size: 1.75rem;`;
